@@ -1,0 +1,4 @@
+interface:
+  display_name: "Freelance Intake"
+  short_description: "Assess and scope new client jobs"
+  default_prompt: "Use $freelance-project-intake to assess this new client request, identify blockers, generate a questionnaire if needed, and draft milestones plus a student-discount quote."
