@@ -37,6 +37,16 @@ Use this response structure unless the user asks for a different format.
 ## Milestones And Timeline
 
 - If the scope is clear enough, provide 3 to 5 milestones with time estimates.
+- Each milestone must include an "Observable Outcome" field per the Milestone Framing rules in `references/planning-and-pricing.md`.
+
+## Requirements Summary (optional)
+
+Activate this only when: (a) verdict is `Agent-ready` or `Agent-ready with user actions`, and (b) the client has already provided enough information, typically on a second invocation after the questionnaire is returned. Do not produce this section on a first pass with a thin brief.
+
+- **Goal** - One sentence stating the core deliverable
+- **User Stories** - 2 to 5 items in "As a [actor], I need [X] so that [Y]" format
+- **Acceptance Criteria** - Bullet list of testable assertions
+- **Out of Scope** - Explicit list of what is not included
 
 ## Quote
 

@@ -35,7 +35,7 @@ ROOT_RELS_XML = """<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 APP_XML = """<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Properties xmlns="http://schemas.openxmlformats.org/officeDocument/2006/extended-properties"
             xmlns:vt="http://schemas.openxmlformats.org/officeDocument/2006/docPropsVTypes">
-  <Application>Codex Skill Helper</Application>
+  <Application>AI Skill Helper</Application>
 </Properties>
 """
 
@@ -77,8 +77,8 @@ def build_core_xml(title: str) -> str:
                    xmlns:dcmitype="http://purl.org/dc/dcmitype/"
                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <dc:title>{escape(title)}</dc:title>
-  <dc:creator>Codex Skill Helper</dc:creator>
-  <cp:lastModifiedBy>Codex Skill Helper</cp:lastModifiedBy>
+  <dc:creator>AI Skill Helper</dc:creator>
+  <cp:lastModifiedBy>AI Skill Helper</cp:lastModifiedBy>
   <dcterms:created xsi:type="dcterms:W3CDTF">{created}</dcterms:created>
   <dcterms:modified xsi:type="dcterms:W3CDTF">{created}</dcterms:modified>
 </cp:coreProperties>

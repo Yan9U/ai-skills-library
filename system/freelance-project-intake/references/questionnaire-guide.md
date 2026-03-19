@@ -4,7 +4,7 @@ Use this guide when the project is blocked or partially blocked by missing clien
 
 ## Goal
 
-Produce a short client-facing document that collects the minimum information required to scope the work correctly. Keep it practical, polite, and specific.
+Produce a short client-facing document that helps the client answer the minimum questions required to scope the work correctly. Keep it practical, polite, and specific.
 
 ## Default Language
 
@@ -16,22 +16,22 @@ Include only the sections that matter for the project. Start with the highest-ri
 
 ### 1. Project Goal
 
-Clarify the final deliverable and success criteria.
+Use this section to clarify what the client actually wants delivered.
 
 Good questions:
 
 - What exact output should the final project produce?
-- What problem should the deliverable solve?
+- What problem should the deliverable solve for the client?
 - How will the client decide the project is complete and acceptable?
 
 ### 2. Inputs And Existing Materials
 
-Collect the raw materials needed to begin.
+Use this section to collect the raw materials needed to begin.
 
 Good questions:
 
 - Is there existing source code, data, spreadsheets, images, or documentation?
-- Can the client share sample input files and expected outputs?
+- Can the client share sample input files and the expected output?
 - Are there target APIs, websites, databases, or folders that must be used?
 
 ### 3. Technical Environment
@@ -40,7 +40,7 @@ Use this section when language, platform, or environment details matter.
 
 Good questions:
 
-- Which language, platform, or software must be used?
+- Which language, platform, or software must be used, if any?
 - Which operating system or machine will run the final solution?
 - Are there version constraints for Python, MATLAB, Java, libraries, or toolboxes?
 
@@ -50,7 +50,7 @@ Use this section when the project depends on external systems.
 
 Good questions:
 
-- Are login credentials, API keys, or database access required?
+- Will login credentials, API keys, or database access be required?
 - Does the client have permission to access or automate the target system?
 - Can the client provide a safe test account or sandbox environment?
 
@@ -60,13 +60,13 @@ Use this section for embedded, robotics, camera, audio, networking, or specializ
 
 Good questions:
 
-- Does the project require a specific device, hardware model, or sensor?
+- Does the project require any specific device, hardware model, or sensor?
 - What are the device model numbers and operating conditions?
 - Can the client provide logs, screenshots, videos, or measurement samples?
 
 ### 6. Acceptance Criteria
 
-Make the work testable.
+Use this section to make the work testable.
 
 Good questions:
 
@@ -76,7 +76,7 @@ Good questions:
 
 ### 7. Timeline And Budget
 
-Expose deadline risk early.
+Use this section to expose deadline risk early.
 
 Good questions:
 
