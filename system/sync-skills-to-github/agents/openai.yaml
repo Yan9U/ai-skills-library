@@ -1,0 +1,4 @@
+interface:
+  display_name: "Skill Sync"
+  short_description: "Sync local skills to GitHub"
+  default_prompt: "Use $sync-skills-to-github to sync the local Codex or Claude skill changes in the current project to the correct GitHub repository, preserving the target repo structure and pushing the update."

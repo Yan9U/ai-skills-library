@@ -15,7 +15,7 @@ A curated collection of **74 skills** for [Claude Code](https://claude.ai/code) 
 | [visual-content](#visual-content) | 2 | AI image generation, infographics |
 | [business-analysis](#business-analysis) | 1 | Market research reports, competitive analysis |
 | [matlab-engineering](#matlab-engineering) | 21 | MATLAB simulation, control systems, Simulink, signal processing |
-| [system](#system) | 3 | Skill management utilities, project intake |
+| [system](#system) | 4 | Skill management utilities, project intake |
 
 ---
 
@@ -142,6 +142,7 @@ A curated collection of **74 skills** for [Claude Code](https://claude.ai/code) 
 | `skill-creator` | Create new skills from templates for Claude Code / Codex |
 | `skill-installer` | Install and manage skills across Claude Code and Codex |
 | `freelance-project-intake` | Assess new freelance projects — feasibility, milestones, quotes, client questionnaires |
+| `sync-skills-to-github` | Sync local Codex and Claude skills into the correct GitHub repo with structure-aware merge, commit, and push |
 
 ---
 
