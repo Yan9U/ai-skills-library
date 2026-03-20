@@ -21,6 +21,16 @@ Use this skill to turn an unclear client brief into an execution decision, a req
 1. Restate AND interrogate the project.
    Restate the likely deliverable, domain, hidden risks, deadline pressure, and assumptions. Then immediately stress-test 3 to 5 assumptions the agent made that the brief did not state explicitly. Use the "Assumption Stress-Test" categories in `references/decision-rubric.md` as a checklist.
    If in an interactive session with the user, pause for confirmation before advancing to the verdict. Do not proceed to a feasibility verdict until at least three concrete facts are established: deliverable, target environment, and one success criterion.
+1b. Create or update the living requirements document from the very beginning.
+   Read `references/requirements-lifecycle.md`.
+   On the first pass for a project, create `client_docs/plans/<project-slug>-requirements.md` even if the brief is still incomplete.
+   On every later pass for the same project, open that same file first, reconcile the client's new statements against the current document, and update the active requirements so the file always reflects the latest aligned understanding.
+   When the client changes scope, priority, acceptance criteria, timeline, or delivery format, do not create a separate competing summary. Update the existing requirements document in place and append a dated change-log entry.
+1c. Evaluate each new or changed requirement before syncing it into the document.
+   Use the reasonableness checks in `references/requirements-lifecycle.md`.
+   Judge whether the requested change is feasible, testable, internally consistent, proportionate to the timeline and budget, and unlikely to create hidden contradictions.
+   If the change is reasonable, update the active requirements document and give a brief work plan for adapting to the change.
+   If the change is not reasonable, explain why, do not write it into the active requirements as a confirmed rule, and guide the client toward a more realistic requirement or a smaller validating step.
 2. Decide execution feasibility.
    Read `references/decision-rubric.md`. If the project involves extending an existing client codebase, apply the "Codebase Risk" subsection as an additional risk factor before issuing the verdict.
 3. Produce one verdict:
@@ -46,6 +56,7 @@ Use this skill to turn an unclear client brief into an execution decision, a req
 8. Produce a Requirements Summary (optional).
    Activate this only when: (a) verdict is `Agent-ready` or `Agent-ready with user actions`, and (b) the client has already provided enough information, typically on a second invocation after the questionnaire is returned. Do not produce this section on a first pass with a thin brief.
    See `references/output-format.md` for the Requirements Summary structure.
+   This section must stay consistent with `client_docs/plans/<project-slug>-requirements.md`; if the summary changes, update the file in the same turn.
 9. Follow `references/output-format.md` so every intake assessment is structured the same way.
 
 ## Multi-Agent Guidance
@@ -60,6 +71,7 @@ Use this skill to turn an unclear client brief into an execution decision, a req
 
 - Save client questionnaires under `client_docs/questionnaires/`.
 - Save planning files under `client_docs/plans/`.
+- Save the living requirements document under `client_docs/plans/<project-slug>-requirements.md`.
 - Save quote drafts under `client_docs/quotes/`.
 - Save actual implementation work under `projects/`.
 
@@ -74,6 +86,7 @@ Use this skill to turn an unclear client brief into an execution decision, a req
 
 - `references/decision-rubric.md`: Feasibility rubric and multi-agent decision rules
 - `references/questionnaire-guide.md`: How to ask clients for missing information
+- `references/requirements-lifecycle.md`: How to maintain and evaluate the living requirements document over time
 - `references/planning-and-pricing.md`: Milestone, time, and pricing guidance
 - `references/output-format.md`: Response structure
 - `assets/questionnaire_input_template.json`: Starter JSON for questionnaire generation

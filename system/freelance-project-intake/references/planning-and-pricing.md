@@ -2,6 +2,10 @@
 
 Use this file after the project is clear enough to scope.
 
+All plans, milestones, and quotes must stay aligned with the latest version of `client_docs/plans/<project-slug>-requirements.md`. If the requirements document changes, regenerate or revise the plan and quote in the same turn when needed.
+
+When a new client change is judged reasonable, provide a brief adaptation plan even before writing a full milestone plan. Keep it short: what changes, what must be revalidated, and whether schedule or quote impact is expected.
+
 ## Default Language
 
 Unless the user explicitly requests English, write milestone plans, timeline summaries, and quote drafts in Simplified Chinese for the client.

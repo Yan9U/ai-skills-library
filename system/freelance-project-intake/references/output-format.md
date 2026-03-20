@@ -34,6 +34,19 @@ Use this response structure unless the user asks for a different format.
 - If blocked, provide grouped client questions.
 - Mention the DOCX path if a questionnaire was generated.
 
+## Requirement Change Assessment
+
+- When the client adds or changes a requirement, first state whether the new request is reasonable.
+- If it is not reasonable, explain why in plain language and offer 1 to 3 realistic alternatives, narrower options, or clarification questions.
+- If it is reasonable, say so explicitly before describing the document update and brief work plan.
+
+## Requirements Document Sync
+
+- Always mention the path `client_docs/plans/<project-slug>-requirements.md` once the project has been identified.
+- State whether the file was created, updated, or reviewed with no active requirement changes.
+- Summarize requirement additions, removals, and modifications since the previous version.
+- If a requested change was judged unreasonable, do not place it in the active requirements. Keep the active sections aligned to the latest confirmed reasonable scope and record the rejected or pending change only in the change log or open questions.
+
 ## Milestones And Timeline
 
 - If the scope is clear enough, provide 3 to 5 milestones with time estimates.
@@ -42,6 +55,8 @@ Use this response structure unless the user asks for a different format.
 ## Requirements Summary (optional)
 
 Activate this only when: (a) verdict is `Agent-ready` or `Agent-ready with user actions`, and (b) the client has already provided enough information, typically on a second invocation after the questionnaire is returned. Do not produce this section on a first pass with a thin brief.
+
+This section is the response-facing summary of the living requirements document. If it changes, update `client_docs/plans/<project-slug>-requirements.md` in the same turn.
 
 - **Goal** - One sentence stating the core deliverable
 - **User Stories** - 2 to 5 items in "As a [actor], I need [X] so that [Y]" format
