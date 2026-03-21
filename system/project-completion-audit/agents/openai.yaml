@@ -1,0 +1,4 @@
+interface:
+  display_name: "Completion Audit"
+  short_description: "Generate a post-delivery completion review"
+  default_prompt: "Use $project-completion-audit to reconstruct the full requirements, map them to the implementation, summarize delivered work, and produce a handoff audit for an independent completion check."
